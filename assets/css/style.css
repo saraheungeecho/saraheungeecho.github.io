@@ -1,0 +1,125 @@
+body {
+	font-family: 'Lato', bold;
+	perspective: 1px;
+  	height: 100%;
+  	overflow-y: scroll;
+  	overflow-x: hidden;
+}
+
+@font-face {
+	font-family:"LemonMilk";
+	src:url(assets/fonts/LemonMilk.otf);
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+#frontpage { 
+  	background-color: white; 
+}
+
+#thumbnail img {
+	height: 250px;
+	width: 250px;
+	display: block;
+	margin: 0 auto;
+}
+
+#name {
+	text-align: center;
+	font-family: LemonMilk;
+	font-size: 50px;
+	color: #666766;
+	margin-top: 10px;
+	padding: 2px;
+	letter-spacing: 3px;
+}
+
+#skills {
+	text-align: center;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: bold;
+	color: #878887;
+	margin-top: 10px;
+}
+
+#portfolio {
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.center {
+	display: inline-block;
+	margin-top: 100px;
+}
+
+#portfolio a {
+	text-decoration: none;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666766;
+	margin-top: 30px;
+	padding-left: 150px;
+}
+
+#graphics img {
+	height: 200px;
+	width: 200px;
+	padding: 0px 100px;
+}
+
+#photos img {
+	height: 200px;
+	width: 150px;
+	padding: 0px 100px;
+}
+
+#websites img {
+	height: 200px;
+	width: 180px;
+	padding: 0px 100px;
+}
+#contact {
+	margin-bottom: 50px;
+  	background-color: #72cbcc;
+ 	text-align: center;
+	font-family: LemonMilk;
+	font-size: 20px;
+	color: white;
+	margin-top: 10px;
+	padding: 2px;
+	letter-spacing: 3px;
+}
+
+#connect {
+  	background-color: #72cbcc;
+ 	text-align: center;
+	font-family: LemonMilk;
+	font-size: 20px;
+	color: white;
+	margin-top: 10px;
+	padding: 2px;
+	letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+	text-align: center;
+	font-family: Lato;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666766;
+	margin-top: 10px;
+}
+
+#contact .icons img {
+	height: 70px;
+	width: 70px;
+	padding: 20px 15px 30px 15px;
+	margin: 0 auto;
+	-webkit-filter: grayscale(50%);
+}
