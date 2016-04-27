@@ -4,6 +4,7 @@ body {
   	height: 100%;
   	overflow-y: scroll;
   	overflow-x: hidden;
+  	margin: 0px;
 }
 
 @font-face {
@@ -11,14 +12,10 @@ body {
 	src:url(assets/fonts/LemonMilk.otf);
 }
 
-html {
-  height: 100%;
-  overflow: hidden;
-}
-
 #frontpage { 
   	background-color: white; 
-  	padding-top: 50px;
+  	padding-top: 120px;
+  	padding-bottom: 100px;
 }
 
 #thumbnail img {
@@ -114,3 +111,22 @@ a {
 	padding: 50px 20px 30px 15px;
 	margin: 0 auto;
 }
+
+#orangecontainer {
+ 	text-align: center;
+	font-family: LemonMilk;
+	font-size: 30px;
+	color: white;
+	letter-spacing: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+}
+
+#orange {
+    background: #f47d73;
+    padding: 10px 20px;
+    cursor: pointer;
+    padding: 22px 0px;
+}
+
