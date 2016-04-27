@@ -5,11 +5,12 @@ body {
   	overflow-y: scroll;
   	overflow-x: hidden;
   	margin: 0px;
+  	opacity: 1;
+  	transition: 2s opacity;
 }
 
 @font-face {
 	font-family:"LemonMilk";
-	src:url(assets/fonts/LemonMilk.otf);
 }
 
 #frontpage { 
@@ -19,8 +20,8 @@ body {
 }
 
 #thumbnail img {
-	height: 250px;
-	width: 250px;
+	height: 200px;
+	width: 200px;
 	display: block;
 	margin: 0 auto;
 }
@@ -129,3 +130,21 @@ a {
     padding: 24px 0px;
 }
 
+body.fade-out {
+	opacity: 0;
+	transition: none;
+}
+
+.topbutton {
+	color: black;
+ 	text-align: center;
+	font-family: lato;
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 25px;
+	border: 1px;
+	color: black;
+
+}
