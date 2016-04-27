@@ -18,6 +18,7 @@ html {
 
 #frontpage { 
   	background-color: white; 
+  	padding-top: 50px;
 }
 
 #thumbnail img {
@@ -30,7 +31,7 @@ html {
 #name {
 	text-align: center;
 	font-family: LemonMilk;
-	font-size: 50px;
+	font-size: 60px;
 	color: #666766;
 	margin-top: 10px;
 	padding: 2px;
@@ -48,44 +49,35 @@ html {
 
 #portfolio {
   background-color: white;
-  padding-bottom: 100px;
+
 }
 
-.center {
-	display: inline-block;
-	margin-top: 100px;
-}
-
-#portfolio a {
+.link a {
 	text-decoration: none;
-	font-family: Lato;
-	font-size: 15px;
-	font-weight: bold;
-	color: #666766;
-	margin-top: 30px;
-	padding-left: 150px;
+	font-size: 25px;
+	color: #1a3865;
 }
 
-#graphics img {
+.gray {
+	text-align: center;
+	background-color: white;
+	padding-bottom: 70px;
+}
+
+.pic img {
+	font-weight: bold;
 	height: 200px;
 	width: 200px;
-	padding: 0px 100px;
+	padding: 50px 20px;
+	padding-top: 80px;
 }
 
-#photos img {
-	height: 200px;
-	width: 150px;
-	padding: 0px 100px;
+.link {
 }
 
-#websites img {
-	height: 200px;
-	width: 180px;
-	padding: 0px 100px;
-}
 #contact {
-	margin-bottom: 50px;
-  	background-color: #72cbcc;
+	margin-bottom: 20px;
+  	background-color: white;
  	text-align: center;
 	font-family: LemonMilk;
 	font-size: 20px;
@@ -96,14 +88,14 @@ html {
 }
 
 #connect {
-  	background-color: #72cbcc;
+  	background-color: #6d9dd3;
  	text-align: center;
 	font-family: LemonMilk;
-	font-size: 20px;
+	font-size: 15px;
 	color: white;
 	margin-top: 10px;
 	padding: 2px;
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 }
 
 a {
@@ -119,7 +111,6 @@ a {
 #contact .icons img {
 	height: 70px;
 	width: 70px;
-	padding: 20px 15px 30px 15px;
+	padding: 50px 20px 30px 15px;
 	margin: 0 auto;
-	-webkit-filter: grayscale(50%);
 }
