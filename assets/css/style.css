@@ -120,13 +120,12 @@ a {
 	letter-spacing: 2px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 50px;
+	padding-bottom: 25px;
 }
 
 #orange {
     background: #f47d73;
-    padding: 10px 20px;
     cursor: pointer;
-    padding: 22px 0px;
+    padding: 24px 0px;
 }
 
