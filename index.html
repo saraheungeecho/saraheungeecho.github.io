@@ -1,66 +1,204 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sarah Cho</title>
+        <link rel="icon" type="image/png" href="assets/img/Logo.png" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Lato:' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    </head>
+    <body>
 
-<head>
-	<title>Sarah Cho</title>
-	<link rel="icon" type="image/png" href="assets/img/Logo.png" />
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-	<script src="assets/js/jquery-1.9.1.js"></script>
-	<script src="assets/js/script.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-</head>
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse navHeaderCollapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">WORK</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-<body>
-	<script>document.body.className += 'fade-out'; </script>
+        <div id="front-page">
+            <div class="sc-logo"><img src="assets/img/sc-logo.png" alt="Sarah Cho personal branding"></div>
+            <h1 class="name">Sarah Cho</h1>
+            <div class="skills">|| GRAPHIC DESIGNER || WEB DEVELOPER ||</div>
+        </div>
+
+        <div id="work">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="assets/img/snoba.png" alt="Snoba Banner" data-toggle="modal" data-target="#snoba">
+                        <h3 class="text-uppercase">Snoba Banner</h3>
+                        <p>write something here</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="assets/img/sf.png" alt="San Francisco Poster" data-toggle="modal" data-target="#sf">
+                        <h3 class="text-uppercase">San Francisco Poster</h3>
+                        <p>write something here</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="assets/img/lancer-logo.png" alt="Lancer Logo" data-toggle="modal" data-target="#lancer">
+                        <h3 class="text-uppercase">Lancer Logo</h3>
+                        <p>write something here</p>
+                    </div>
+                </div>
 
 
-	<div id="frontpage">
-		<div id="thumbnail"><img src="assets/img/Logosmall.png"></div>
-		<div id="name">Sarah Cho</div>
-		<div id="skills">GRAPHIC DESIGNER | PHOTOGRAPHER | WEB DEVELOPER</div>
-	</div>
-	
-	<div id="orangecontainer">
-		<div id="orange">WORKS</div>
-	</div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="assets/img/flower.png" alt="Flower Graphic Design" data-toggle="modal" data-target="#flower">
+                        <h3 class="text-uppercase">Flower Spell</h3>
+                        <p>write something here</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="assets/img/mine.png" alt="Mine is Yours Logo Design" data-toggle="modal" data-target="#mine">
+                        <h3 class="text-uppercase">Mine is Yours</h3>
+                        <p>write something here</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive" src="assets/img/avatar.png" alt="Character Design" data-toggle="modal" data-target="#avatar">
+                        <h3 class="text-uppercase">Lancer Logo</h3>
+                        <p>write something here</p>
+                    </div>
+                </div>
 
-	<div id="portfolio">
-		<span id="graphic">
-			<div class="gray">
-				<div class="pic">
-					<a href="#"><img src="assets/img/mine.png"></a>
-					<a href="#"><img src="assets/img/snoba.png"></a>
-					<a href="#"><img src="assets/img/sarah.png"></a>
-					<a href="#"><img src="assets/img/sf.png"></a>
-					<a href="#"><img src="assets/img/lancer.png"></a>
-				</div>
-				<div class="link"><a target="_blank" href="http://">GRAPHIC DESIGNS</a></div>
-			</div>
-		</span>
-	</div>
-	
-	<div id="contact">
-	  	<div id="connect">
-	    	<h1>Let's Connect!</h1>
-	 	</div>
-		<div class="icons">
-			<div>
-				<img src="assets/img/email.png">
-				<img src="assets/img/linkedin.png">
-				<img src="assets/img/flickr.png">
-				<img src="assets/img/behance.png">
-				<img src="assets/img/facebook.png">
-			</div>
-			<div>
-				<a target="_blank" href="http://">EMAIL</a> . 
-				<a target="_blank" href="http://">LINKEDIN</a> . 
-				<a target="_blank" href="http://">FLICKR</a> . 
-				<a target="_blank" href="http://">BEHANCE</a> . 
-				<a target="_blank" href="http://">FACEBOOK</a>
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
 
-	<div class="topbutton">BACK TO TOP</div>
+<!-- Modal -->
+        <div class="modal fade" id="snoba" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Snoba Banner</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="assets/img/snoba.png" alt="San Francisco Poster">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-</body>
+        <div class="modal fade" id="sf" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">San Francisco Poster</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="assets/img/sf.png" alt="San Francisco Poster">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="lancer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Lancer Logo</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="assets/img/lancer-logo.png" alt="San Francisco Poster">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="flower" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Snoba Banner</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="assets/img/flower.png" alt="San Francisco Poster">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="mine" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">San Francisco Poster</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="assets/img/mine.png" alt="San Francisco Poster">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="avatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Lancer Logo</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="assets/img/avatar.png" alt="San Francisco Poster">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
 </html>

@@ -1,51 +1,65 @@
 body {
 	font-family: 'Lato', bold;
 	perspective: 1px;
-  	height: 100%;
   	overflow-y: scroll;
   	overflow-x: hidden;
-  	margin: 0px;
+  	margin: 0;
   	opacity: 1;
   	transition: 2s opacity;
 }
 
-@font-face {
-	font-family:"LemonMilk";
+.navbar {
+	margin: 0;
 }
 
-#frontpage { 
-  	background-color: white; 
-  	padding-top: 120px;
-  	padding-bottom: 100px;
+#front-page {
+	background: url('https://images.unsplash.com/photo-1455641139200-aebc8e447b8a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=09460b999e9e7f5e81c85fa83f21c4fd') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-#thumbnail img {
-	height: 200px;
-	width: 200px;
+.sc-logo img {
+	height: 250px;
+	width: 250px;
 	display: block;
-	margin: 0 auto;
+	opacity: .93;
 }
 
-#name {
+.name {
 	text-align: center;
 	font-family: LemonMilk;
-	font-size: 60px;
-	color: #666766;
-	margin-top: 10px;
-	padding: 2px;
-	letter-spacing: 3px;
+	font-size: 50px;
+	color: #f7f7f7;
+	letter-spacing: 2px;
 }
 
-#skills {
+.skills {
 	text-align: center;
 	font-family: Lato;
 	font-size: 15px;
 	font-weight: bold;
-	color: #878887;
-	margin-top: 10px;
+	color: #f7f7f7;
 }
 
-#portfolio {
+#work {
+	padding: 40px;
+
+}
+
+#work img {
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+/*#portfolio {
   background-color: white;
 
 }
@@ -147,4 +161,4 @@ body.fade-out {
 	border: 1px;
 	color: black;
 
-}
+}*/
