@@ -59,6 +59,24 @@ body {
 	margin: 0 auto;
 }
 
+#contact {
+	background: url('https://images.unsplash.com/photo-1455641139200-aebc8e447b8a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=09460b999e9e7f5e81c85fa83f21c4fd') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	color: white;
+	padding: 40px;
+}
+
+#contact img {
+	-webkit-filter: invert(100%);
+	margin: 0 auto;
+	height: 100px;
+	width: 100px;
+}
+
 /*.#portfolio {
   background-color: white;
 
