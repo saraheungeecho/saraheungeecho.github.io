@@ -12,44 +12,68 @@ body {
 	margin: 0;
 }
 
-#front-page {
-	background: url('https://images.unsplash.com/photo-1455641139200-aebc8e447b8a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=09460b999e9e7f5e81c85fa83f21c4fd') no-repeat center center fixed;
+.navbar-default {
+	background-color: #6ecacc;
+	border-color: #6ecacc;
+}
+
+/*.navbar-default .navbar-brand img {
+	width: 20px;
+	height: 20px;
+}*/
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+#landing-page {
+	background: url(../img/landing-page-shadow.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100vh;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
-.sc-logo img {
+/*.sc-logo img {
 	height: 250px;
 	width: 250px;
 	display: block;
-	opacity: .93;
-}
+	opacity: 0;
+}*/
 
 .name {
 	text-align: center;
 	font-family: LemonMilk;
 	font-size: 50px;
-	color: #f7f7f7;
+	color: #184445;
 	letter-spacing: 2px;
 }
 
 .skills {
 	text-align: center;
 	font-family: Lato;
-	font-size: 15px;
+	font-size: 17px;
 	font-weight: bold;
-	color: #f7f7f7;
+	color: white;
+}
+
+.glyphicon.glyphicon-menu-down {
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+	margin-top: 40px
 }
 
 #work {
 	padding: 40px;
+	background-color: #70cbcc;
 
 }
 
@@ -60,13 +84,13 @@ body {
 }
 
 #contact {
-	background: url('https://images.unsplash.com/photo-1455641139200-aebc8e447b8a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=09460b999e9e7f5e81c85fa83f21c4fd') no-repeat center center fixed;
+	background: url(../img/landing-page.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100%;
-	color: white;
+	color: blue;
 	padding: 40px;
 }
 
@@ -75,6 +99,13 @@ body {
 	margin: 0 auto;
 	height: 100px;
 	width: 100px;
+}
+
+.glyphicon.glyphicon-menu-up {
+	font-size: 40px;
+	text-decoration: none;
+	color: white;
+	margin-top: 40px
 }
 
 /*.#portfolio {
